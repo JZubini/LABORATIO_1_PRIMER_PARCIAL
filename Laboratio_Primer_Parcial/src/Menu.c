@@ -296,6 +296,7 @@ void menu(Salon* listaSalones , int tamanioSalon , Arcade* listaArcade , int tam
 					break;
 				case 10:
 					printf("Fin del programa\n");
+					break;
 			}
 		}
 	}while(respuestaUsuarioMenu != 10);
