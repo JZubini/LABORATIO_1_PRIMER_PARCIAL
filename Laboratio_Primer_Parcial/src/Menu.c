@@ -294,6 +294,8 @@ void menu(Salon* listaSalones , int tamanioSalon , Arcade* listaArcade , int tam
 					/*INFORME G*/
 					informes_mostrarListaDeArcadesQueContienenElJuegoIngresado(listaArcade, tamanioArcade);
 					break;
+				case 10:
+					printf("Fin del programa\n");
 			}
 		}
 	}while(respuestaUsuarioMenu != 10);
